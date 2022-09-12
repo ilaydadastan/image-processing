@@ -7,7 +7,7 @@ image = cv2.imread(path)
 
 window_name = 'image'
 
-kernel = np.ones((7, 7""), np.uint8)
+kernel = np.ones((7, 7), np.uint8)
 
 image = cv2.erode(image, kernel)
 
