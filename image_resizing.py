@@ -1,7 +1,7 @@
 
 import cv2
 
-image = cv2.imread('road.jpeg') # Reading an image
+image = cv2.imread('road.jpeg')  # Reading an image
 
 h, w = image.shape[:2]
 
@@ -16,3 +16,6 @@ dim = (800, int(h * ratio))
 
 # Resizing the image
 resize_aspect = cv2.resize(image, dim)
+
+cv2.imshow(' ', image)
+cv2.waitKey(0)

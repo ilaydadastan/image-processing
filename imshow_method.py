@@ -1,6 +1,6 @@
 import cv2
 
-path = r'\Users\ilaydadastan\PycharmProjects\image-processing\road.jpeg'  # ??
+path = r'/Users/ilaydadastan/PycharmProjects/image-processing/road.jpeg'
 
 image = cv2.imread(path)  #default mode, grayscale mode:(path, 0)
 
